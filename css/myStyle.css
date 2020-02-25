@@ -1,0 +1,23 @@
+html {
+  scroll-behavior: smooth;
+}
+h1{
+	font-style: Roboto, sans-serif
+}
+div{
+	background-color: RGB(240, 240, 240);
+	border-width: 5px;
+	border-style: solid;
+} 
+#nav {
+	border-color: #FFF7C5;
+}
+#portfolio {
+	border-color: #FFC5EA;
+}
+#services {
+	border-color: #C5FFDA;
+}
+#contact {
+	border-color: #C5CDFF;
+}

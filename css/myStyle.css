@@ -1,6 +1,35 @@
 html {
   scroll-behavior: smooth;
 }
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #FFC5CD;
+}
+
+.topnav a {
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #EAFFC5;
+  color: white;
+}
+
+.topnav a.active {
+  background-color: ##FFDAC5;
+  color: white;
+}
+
 h1{
 	font-style: Roboto, sans-serif
 }
@@ -9,6 +38,9 @@ div{
 	border-width: 5px;
 	border-style: solid;
 } 
+.topnav {
+	border-width: 0px;
+}
 #nav {
 	border-color: #FFF7C5;
 }
